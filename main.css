@@ -1,0 +1,84 @@
+.grideOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    font-weight: 900;
+}
+
+.gridTwo > .gridTwo-child-one{
+    background-color: red;
+}
+
+.gridTwo > .gridTwo-child-two{
+    background-color: blue;
+    color: white;
+}
+
+.gridTwo > .gridTwo-child-three{
+    background-color: yellow;
+}
+
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.gridThree-child-one{
+    background-color: green;
+}
+
+.gridThree-child-two{
+    background-color: black;
+}
+
+.gridThree-child-two img{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width:500px;
+    background-color: green;
+}
+
+#grideFour-Child-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width:500px;
+}
+
+#grideFive-Child-two{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#grideFive-Child-two img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.gridSix{
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+}
